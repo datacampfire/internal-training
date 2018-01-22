@@ -10,14 +10,13 @@ For us in [Data Campfire](http://datacampfire.com), OpenRefine is an excellent a
 1. About data formats (CSV,TSV,JSON)
 2. Creating a project
 3. Basic operations
-4. Strings
-5. Numbers
-6. Dates
-7. Edit columns
-8. Edit cells: GREL - Python/Jython
-9. Clustering
+4. Edit cells: GREL - Python/Jython
+5. Strings
+6. Undo/Redo
+7. Clustering
+8. Numbers
+9. Dates
 10. Remove cells
-11. Undo/Redo
 12. Reconcile
 13. Fetching by Url
 
