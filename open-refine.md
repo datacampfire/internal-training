@@ -18,7 +18,7 @@ For us in [Data Campfire](http://datacampfire.com), OpenRefine is an excellent a
 9. Dates
 10. Remove cells
 12. Reconcile
-13. Fetching by Url
+13. Fetching by Url (Geocoding: https://github.com/OpenRefine/OpenRefine/wiki/Geocoding)
 
 ---
 ## About Data Campfire
