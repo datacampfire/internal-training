@@ -1,0 +1,945 @@
+[
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Club to type Q476028",
+    "columnName": "Club",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q476028",
+        "name": "association football team"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Montpelier\" in column Club",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Club",
+    "similarValue": "Montpelier"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Birthplace to type Q515",
+    "columnName": "Birthplace",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q515",
+        "name": "city"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Rosario (Q52535) for cells containing \"Rosario\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Rosario",
+    "judgment": "matched",
+    "match": {
+      "id": "Q52535",
+      "name": "Rosario",
+      "score": 100,
+      "types": [
+        "Q515",
+        "Q15284"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Fuentealbilla (kommunhuvudort) (Q23985957) for cells containing \"Fuentealbilla\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Fuentealbilla",
+    "judgment": "matched",
+    "match": {
+      "id": "Q23985957",
+      "name": "Fuentealbilla (kommunhuvudort)",
+      "score": 31.5,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic SVT Malmö (Q10659689) for cells containing \"Malmö\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Malmö",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10659689",
+      "name": "SVT Malmö",
+      "score": 35.5,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Santa Marta (Q17087844) for cells containing \"Santa Marta\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Santa Marta",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17087844",
+      "name": "Santa Marta",
+      "score": 50,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Flero\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Flero",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Salto (Q335506) for cells containing \"Salto\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Salto",
+    "judgment": "matched",
+    "match": {
+      "id": "Q335506",
+      "name": "Salto",
+      "score": 100,
+      "types": [
+        "Q1549591"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Arguineguin\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Arguineguin",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Baumwollspinnerei Kolbermoor (Q811650) for cells containing \"Kolbermoor\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Kolbermoor",
+    "judgment": "matched",
+    "match": {
+      "id": "Q811650",
+      "name": "Baumwollspinnerei Kolbermoor",
+      "score": 26.5,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Royal Uccle Sport THC (Q2260959) for cells containing \"Uccle\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Uccle",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2260959",
+      "name": "Royal Uccle Sport THC",
+      "score": 28,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic carraraite (Q3660695) for cells containing \"Carrara\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Carrara",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3660695",
+      "name": "carraraite",
+      "score": 41,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Camas, Seville\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Camas, Seville",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Barcelona (Q1492) for cells containing \"Barcelona\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Barcelona",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1492",
+      "name": "Barcelona",
+      "score": 100,
+      "types": [
+        "Q33146843",
+        "Q515",
+        "Q1637706",
+        "Q1200957",
+        "Q2264924"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Munich (Q1726) for cells containing \"Munich\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Munich",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1726",
+      "name": "Munich",
+      "score": 100,
+      "types": [
+        "Q515",
+        "Q1187811",
+        "Q1549591",
+        "Q1180262",
+        "Q14784328",
+        "Q22865",
+        "Q200250",
+        "Q1066984",
+        "Q1637706"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Stepneyville (Q24885205) for cells containing \"Stepney\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Stepney",
+    "judgment": "matched",
+    "match": {
+      "id": "Q24885205",
+      "name": "Stepneyville",
+      "score": 37,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Croxteth (Q5189626) for cells containing \"Croxteth\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Croxteth",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5189626",
+      "name": "Croxteth",
+      "score": 50,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villafranca-Montes de Oca (Q23991992) for cells containing \"Villafranca Montes de Oca\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Villafranca Montes de Oca",
+    "judgment": "matched",
+    "match": {
+      "id": "Q23991992",
+      "name": "Villafranca-Montes de Oca",
+      "score": 50,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Evangelisch-Lutherisches Dekanat Weilheim in Oberbayern (Q31839390) for cells containing \"Weilheim in Oberbayern\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Weilheim in Oberbayern",
+    "judgment": "matched",
+    "match": {
+      "id": "Q31839390",
+      "name": "Evangelisch-Lutherisches Dekanat Weilheim in Oberbayern",
+      "score": 28.5,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Arenys de Mar (Q22828523) for cells containing \"Arenys de Mar\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Arenys de Mar",
+    "judgment": "matched",
+    "match": {
+      "id": "Q22828523",
+      "name": "Arenys de Mar",
+      "score": 50,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Londrina Basquete Clube (Q10319646) for cells containing \"Londrina\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Londrina",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10319646",
+      "name": "Londrina Basquete Clube",
+      "score": 40,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Lorenzo (Q3317765) for cells containing \"San Lorenzo\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "San Lorenzo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3317765",
+      "name": "San Lorenzo",
+      "score": 100,
+      "types": [
+        "Q515"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Buenos Aires (Q1486) for cells containing \"Buenos Aires\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Buenos Aires",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1486",
+      "name": "Buenos Aires",
+      "score": 100,
+      "types": [
+        "Q5119",
+        "Q1637706",
+        "Q515"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Rome (Q220) for cells containing \"Rome\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Rome",
+    "judgment": "matched",
+    "match": {
+      "id": "Q220",
+      "name": "Rome",
+      "score": 100,
+      "types": [
+        "Q5119",
+        "Q747074",
+        "Q515"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Região Administrativa Integrada de Desenvolvimento do Polo Petrolina e Juazeiro (Q3931908) for cells containing \"Juazeiro\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Juazeiro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3931908",
+      "name": "Região Administrativa Integrada de Desenvolvimento do Polo Petrolina e Juazeiro",
+      "score": 24,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Savona Mill (Q21016162) for cells containing \"Savona\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Savona",
+    "judgment": "matched",
+    "match": {
+      "id": "Q21016162",
+      "name": "Savona Mill",
+      "score": 35.5,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Santiago (Q2887) for cells containing \"Santiago\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Santiago",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2887",
+      "name": "Santiago",
+      "score": 100,
+      "types": [
+        "Q5119",
+        "Q27554850"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Kandern (Q61661) for cells containing \"Riedlingen\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Riedlingen",
+    "judgment": "matched",
+    "match": {
+      "id": "Q61661",
+      "name": "Kandern",
+      "score": 100,
+      "types": [
+        "Q262166",
+        "Q515"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Transport in L'Hospitalet de Llobregat (Q7835015) for cells containing \"L'Hospitalet de Llobregat\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "L'Hospitalet de Llobregat",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7835015",
+      "name": "Transport in L'Hospitalet de Llobregat",
+      "score": 39.5,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic La Louvière Wolves (Q3210132) for cells containing \"La Louvière\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "La Louvière",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3210132",
+      "name": "La Louvière Wolves",
+      "score": 38,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cúcuta (Q19424656) for cells containing \"Cúcuta\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Cúcuta",
+    "judgment": "matched",
+    "match": {
+      "id": "Q19424656",
+      "name": "Cúcuta",
+      "score": 50,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Etterbeek\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Etterbeek",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Dorândia (Barra do Piraí) (Q10268435) for cells containing \"Barra do Piraí\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Barra do Piraí",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10268435",
+      "name": "Dorândia (Barra do Piraí)",
+      "score": 38,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Tuilla\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Tuilla",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Bronckhorst\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Bronckhorst",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Užice railway station (Q31182414) for cells containing \"Užice\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Užice",
+    "judgment": "matched",
+    "match": {
+      "id": "Q31182414",
+      "name": "Užice railway station",
+      "score": 50,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Bedum\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Bedum",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Palermo (Q2656) for cells containing \"Palermo\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Palermo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2656",
+      "name": "Palermo",
+      "score": 100,
+      "types": [
+        "Q747074",
+        "Q515"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Warsaw (Q270) for cells containing \"Warsaw\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Warsaw",
+    "judgment": "matched",
+    "match": {
+      "id": "Q270",
+      "name": "Warsaw",
+      "score": 100,
+      "types": [
+        "Q5119",
+        "Q1637706",
+        "Q925381",
+        "Q515",
+        "Q1901835"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Llanera, Asturias\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Llanera, Asturias",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Santa Fe (Q38555) for cells containing \"Santa Fe\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Santa Fe",
+    "judgment": "matched",
+    "match": {
+      "id": "Q38555",
+      "name": "Santa Fe",
+      "score": 100,
+      "types": [
+        "Q1093829",
+        "Q21518270"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Bangui, Central African Rep.\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Bangui, Central African Rep.",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic KK Metković (Q12634030) for cells containing \"Metković\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Metković",
+    "judgment": "matched",
+    "match": {
+      "id": "Q12634030",
+      "name": "KK Metković",
+      "score": 42,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Kabwe (Q216902) for cells containing \"Kabwe\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Kabwe",
+    "judgment": "matched",
+    "match": {
+      "id": "Q216902",
+      "name": "Kabwe",
+      "score": 100,
+      "types": [
+        "Q515"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Dakar, Senegal\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Dakar, Senegal",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic singing sand (Q2618174) for cells containing \"Barking\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Barking",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2618174",
+      "name": "singing sand",
+      "score": 37,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Santa Rosa de Viterbo (Q1097771) for cells containing \"Viterbo\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Viterbo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1097771",
+      "name": "Santa Rosa de Viterbo",
+      "score": 50,
+      "types": [
+        "Q515",
+        "Q3184121"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Córdoba (Q5818) for cells containing \"Córdoba\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Córdoba",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5818",
+      "name": "Córdoba",
+      "score": 100,
+      "types": [
+        "Q2074737",
+        "Q515",
+        "Q5119"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Montevideo (Q1335) for cells containing \"Montevideo\" in column Birthplace",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Birthplace",
+    "similarValue": "Montevideo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1335",
+      "name": "Montevideo",
+      "score": 100,
+      "types": [
+        "Q5119",
+        "Q515"
+      ]
+    },
+    "shareNewTopics": false
+  }
+]
